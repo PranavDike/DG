@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DG</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/css/index.css" />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand text-uppercase text-white" href="#"
+          >dineshgahlot.com</a
+        >
+        <button
+          class="navbar-toggler border-0"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <img src="images/list.svg" alt="bootstrap-icon" />
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ms-auto text-uppercase">
+            <li class="nav-item">
+              <a class="nav-link text-white active" aria-current="page" href="#"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link text-white dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Portfolio
+              </a>
+              <ul class="dropdown-menu bg-transparent border-0">
+                <li>
+                  <a class="dropdown-item text-white" href="#">Action</a>
+                </li>
+                <li>
+                  <a class="dropdown-item text-white" href="#"
+                    >Another action</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item text-white" href="#"
+                    >Something else here</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">Testimonials</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section id="hero-section">
+      <!-- Slider -->
+      <div
+        id="carouselExampleIndicators"
+        class="carousel carousel-fade"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-indicators border-top py-4">
+          <button
+            class="carousel-control-prev bg-transparent p-3 m-0"
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="0"
+            class="active d-none"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="1"
+            class="d-none"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="2"
+            class="d-none"
+            aria-label="Slide 3"
+          ></button>
+          <button
+            class="carousel-control-next bg-transparent p-3 m-0"
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="images/nathan-mcbride-YLkBly2HVHY-unsplash.jpg"
+              class="d-block w-100"
+              alt="..."
+            />
+            <div class="carousel-caption">1/3</div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="images/nathan-dumlao-EdULZpOKsUE-unsplash.jpg"
+              class="d-block w-100"
+              alt="..."
+            />
+            <div class="carousel-caption">2/3</div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="images/marius-muresan-CEFANM8x8aE-unsplash.jpg"
+              class="d-block w-100"
+              alt="..."
+            />
+            <div class="carousel-caption">3/3</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="grid-section"></section>
+
+    <section
+      id="testimony-section"
+      class="row row-cols-1 row-cols-md-2 m-0 p-3 p-md-5"
+    >
+      <div id="text" class="col p-0 m-0">
+        <div class="card border-0">
+          <div class="card-body">
+            <h5 class="card-title">Testimonials</h5>
+            <p class="card-text">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis
+              nobis quia aperiam a officiis mollitia, quo doloribus, praesentium
+              quibusdam, dolorem libero vero est laudantium. Placeat facere sed
+              veritatis distinctio quidem.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div
+        id="carouselExampleIndicators2"
+        class="carousel carousel-fade col"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-indicators border-top py-4">
+          <button
+            class="carousel-control-prev bg-transparent p-3 m-0"
+            type="button"
+            data-bs-target="#carouselExampleIndicators2"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators2"
+            data-bs-slide-to="0"
+            class="active d-none"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators2"
+            data-bs-slide-to="1"
+            class="d-none"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators2"
+            data-bs-slide-to="2"
+            class="d-none"
+            aria-label="Slide 3"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators2"
+            data-bs-slide-to="3"
+            class="d-none"
+            aria-label="Slide 4"
+          ></button>
+          <button
+            class="carousel-control-next bg-transparent p-3 m-0"
+            type="button"
+            data-bs-target="#carouselExampleIndicators2"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="images/eric-ward-ISg37AI2A-s-unsplash.jpg"
+              class="d-block w-100"
+              alt="..."
+            />
+            <div class="carousel-caption">1/4</div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="images/manuel-meza-KvKop_a_EXw-unsplash.jpg"
+              class="d-block w-100"
+              alt="..."
+            />
+            <div class="carousel-caption">2/4</div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="images/tamara-bellis-8FYvkl0zHQE-unsplash.jpg"
+              class="d-block w-100"
+              alt="..."
+            />
+            <div class="carousel-caption">3/4</div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="images/j-balla-photography-Gwsn6R39TuU-unsplash.jpg"
+              class="d-block w-100"
+              alt="..."
+            />
+            <div class="carousel-caption">4/4</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div
+      class="container-fluid p-md-4"
+      style="background-color: rgba(112, 128, 144, 0.585)"
+    >
+      <p class="fst-italic p-3 text-center w-md-50 m-auto">
+        <strong class="fs-4">"</strong> Lorem ipsum dolor sit amet consectetur
+        adipisicing elit. Quam, doloribus quod saepe mollitia laborum officia
+        error? Ab aliquid omnis praesentium culpa repellendus reprehenderit
+        commodi voluptatem vero voluptas, quod blanditiis minima.
+        <strong class="fs-4">"</strong>
+      </p>
+    </div>
+
+    <section id="slider-section" class="d-flex p-md-3">
+      <button class="btn btn-sm prev-btn">
+        <img src="images/chevron-left.svg" alt="bootstrap-icon" />
+      </button>
+      <div class="slider-container p-0 m-0">
+        <div class="slider-inner">
+          <div class="slider-item">
+            <img src="images/illiya-vjestica-W5FdAcHp7l8-unsplash.jpg" alt="" />
+          </div>
+          <div class="slider-item">
+            <img src="images/ken-cheung-n6YDG8645N4-unsplash.jpg" alt="" />
+          </div>
+          <div class="slider-item">
+            <img src="images/ken-cheung-VbLTNceBTFE-unsplash.jpg" alt="" />
+          </div>
+          <div class="slider-item">
+            <img src="images/mareks-steins-4qI7HvqpYQw-unsplash.jpg" alt="" />
+          </div>
+          <div class="slider-item">
+            <img
+              src="images/nikola-mihajloski-LPMoA5AaMBI-unsplash.jpg"
+              alt=""
+            />
+          </div>
+          <div class="slider-item">
+            <img src="images/vlad-d-iGFhfBGtoSU-unsplash.jpg" alt="" />
+          </div>
+          <div class="slider-item">
+            <img src="images/melissa-askew-tSlvoSZK77c-unsplash.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+      <button class="btn btn-sm next-btn">
+        <img src="images/chevron-right.svg" alt="bootstrap-icon" />
+      </button>
+    </section>
+
+    <script src="js/index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* #hero-section {} */
+
+p {
+    text-align: justify;
+}
+
+.carousel-caption {
+    padding: 0;
+    margin: 0;
+}
+
+/* slider css */
+.slider-container {
+    width: 1400px;
+    height: 230px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.slider-inner {
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+}
+
+.slider-item {
+    width: 350px;
+    height: 230px;
+    padding: 10px;
+}
+
+.slider-inner img {
+    width: 100%;
+    height: auto;
+}
